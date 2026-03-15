@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnBible — Профиль</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__left">
+      <a href="#" class="header__logo">
+        <svg class="header__logo-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="14" fill="#6C5CE7"/>
+          <path d="M14 6L14 22M10 9L14 6L18 9M10 19L14 22L18 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="header__logo-text">OnBible</span>
+      </a>
+    </div>
+    <nav class="header__nav">
+      <button class="header__nav-btn" aria-label="Уведомления">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+          <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+        </svg>
+      </button>
+      <a href="#" class="header__learn-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+        Учиться
+      </a>
+      <button class="header__nav-btn" aria-label="Закладки">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        </svg>
+      </button>
+      <button class="header__nav-btn" aria-label="Сообщения">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+      </button>
+    </nav>
+    <button class="header__menu-btn" aria-label="Меню">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Cover -->
+  <div class="cover">
+    <img src="https://placekitten.com/1200/300" alt="Обложка профиля" class="cover__img">
+  </div>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar__avatar">
+        <img src="https://placekitten.com/120/120" alt="Кот Котейный" class="sidebar__avatar-img">
+      </div>
+      <h1 class="sidebar__name">Кот Котейный</h1>
+      <div class="sidebar__actions">
+        <button class="btn btn--primary">+ Подписаться</button>
+        <button class="btn btn--outline">Задать вопрос</button>
+      </div>
+
+      <div class="sidebar__about">
+        <h3 class="sidebar__section-title">Обо мне</h3>
+        <p class="sidebar__bio">Welcome! My name is Eduardo, and I'm a Motion Designer specialized in brand animations. My focus is to help brand designers transform static visual identities into dynamic experiences that communicate, captivate, and highlight every detail of their work.</p>
+      </div>
+
+      <div class="sidebar__links">
+        <h3 class="sidebar__section-title">Ссылки</h3>
+        <ul class="social-links">
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--instagram"></span>
+            <a href="#" class="social-links__link social-links__link--active">Instagram</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--facebook"></span>
+            <a href="#" class="social-links__link">Facebook</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--tiktok"></span>
+            <a href="#" class="social-links__link">TikTok</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--x"></span>
+            <a href="#" class="social-links__link">X</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--youtube"></span>
+            <a href="#" class="social-links__link">YouTube</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--telegram"></span>
+            <a href="#" class="social-links__link">Telegram</a>
+          </li>
+          <li class="social-links__item">
+            <span class="social-links__icon social-links__icon--link"></span>
+            <a href="#" class="social-links__link">Мой дневник в пинтересте</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Feed -->
+    <section class="feed">
+      <!-- Tabs -->
+      <nav class="feed__tabs">
+        <a href="#" class="feed__tab feed__tab--active">Лента</a>
+        <a href="#" class="feed__tab">Планы</a>
+        <a href="#" class="feed__tab">Курсы</a>
+        <a href="#" class="feed__tab">Группы</a>
+        <a href="#" class="feed__tab">Карты</a>
+      </nav>
+
+      <!-- Post 1: Compact with thumbnail -->
+      <article class="post post--compact">
+        <div class="post__thumbnail">
+          <img src="https://placekitten.com/100/100" alt="" class="post__thumbnail-img">
+        </div>
+        <div class="post__content">
+          <h2 class="post__title">Truth about my life with no limits. Complete course</h2>
+          <time class="post__date">Октябрь 25</time>
+          <p class="post__excerpt">Truth about my life with no limits. Complete course</p>
+        </div>
+      </article>
+      <div class="post__footer">
+        <div class="post__actions">
+          <button class="post__action-btn" aria-label="Поделиться">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 17l9.2-9.2M17 17V7H7"/>
+            </svg>
+          </button>
+          <button class="post__action-btn" aria-label="Нравится">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+          <button class="post__action-btn" aria-label="Комментировать">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </button>
+        </div>
+        <a href="#" class="post__read-more">Читать полностью</a>
+      </div>
+
+      <!-- Post 2: Large image -->
+      <article class="post">
+        <div class="post__image">
+          <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=500&h=300&fit=crop" alt="" class="post__image-img">
+        </div>
+        <h2 class="post__title">Truth about my life with no limits. Complete course</h2>
+        <time class="post__date">Октябрь 25</time>
+        <p class="post__excerpt">Иов приносит жертвы за своих детей ...</p>
+        <div class="post__footer">
+          <div class="post__actions">
+            <button class="post__action-btn" aria-label="Нравится">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Комментировать">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Поделиться">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+              </svg>
+            </button>
+          </div>
+          <a href="#" class="post__read-more">Раскрыть</a>
+        </div>
+      </article>
+
+      <!-- Post 3: Course card (Bible Pro) -->
+      <article class="post">
+        <div class="post__image post__image--course">
+          <div class="course-card">
+            <span class="course-card__badge">Курс</span>
+            <h3 class="course-card__title">Bible Pro</h3>
+            <p class="course-card__subtitle">Переходи на новый уровень понимания Библии!</p>
+            <div class="course-card__author">
+              <div class="course-card__author-avatar"></div>
+              <div>
+                <div class="course-card__author-name">Феликс Понятовский</div>
+                <div class="course-card__author-role">Автор курса</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <time class="post__date">Октябрь 25</time>
+        <p class="post__excerpt">Рождество — праздник огней, подарков и традиций. Но что, если мы почти ничего не знаем о его настоящем смысле? &#x1F381;</p>
+        <div class="post__details">
+          <p>В этом курсе вы:</p>
+          <ul>
+            <li>Узнаете истинные корни Рождества и откуда пришли символы.</li>
+            <li>Разберётесь, что означают подарки и привычные ритуалы...</li>
+          </ul>
+        </div>
+        <div class="post__footer">
+          <div class="post__actions">
+            <button class="post__action-btn" aria-label="Поделиться">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Нравится">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Комментировать">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </button>
+          </div>
+          <a href="#" class="post__read-more">Развернуть</a>
+        </div>
+      </article>
+
+      <!-- Post 4: Map card -->
+      <article class="post">
+        <div class="post__image">
+          <div class="map-card">
+            <span class="map-card__badge">Карта</span>
+            <div class="map-card__visual">
+              <div class="map-card__node map-card__node--center">Как из пещеры выйти к свету?</div>
+              <div class="map-card__node map-card__node--1">Дети как наследие</div>
+              <div class="map-card__node map-card__node--2">Настоящая вера</div>
+              <div class="map-card__node map-card__node--3">Молитва</div>
+              <div class="map-card__node map-card__node--4">Испытание</div>
+              <div class="map-card__node map-card__node--5">Характер Бога</div>
+            </div>
+          </div>
+        </div>
+        <h2 class="post__title">Truth about my life with no limits. Complete course</h2>
+        <time class="post__date">Октябрь 25</time>
+        <p class="post__excerpt">Иов приносит жертвы за своих детей</p>
+        <p class="post__excerpt">В книге Иова есть деталь, которая часто остаётся незамеченной. Иов каждое утро приносил всесожжения за своих детей, «потому что думал: может он...</p>
+        <div class="post__footer">
+          <div class="post__actions">
+            <button class="post__action-btn" aria-label="Поделиться">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Нравится">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+            <button class="post__action-btn" aria-label="Комментировать">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="post__footer-links">
+            <a href="#" class="post__read-more">Перейти к карте</a>
+            <a href="#" class="post__read-more">Раскрыть</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
